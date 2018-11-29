@@ -50,3 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.confE
+
+# Apps
+*.bin
+*.eapp
+
+# Jupyter Notebook
+.ipynb_checkpoints
