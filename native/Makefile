@@ -1,6 +1,6 @@
 CC=riscv64-unknown-linux-gnu-g++
 CFLGAS=
-BENCHMARKS=base64.bin matmul.bin
+BENCHMARKS=base64.bin matmul.bin maxelem.bin
 
 all: $(BENCHMARKS)
 
