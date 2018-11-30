@@ -1,7 +1,7 @@
 # Benchmarks for Keystone Enclave
 
 Includes benchmarks for SHA256, AVL Tree, Base64 encoding, matrix mulitplication and finding the max element in an array.
-t:
+
 Clone into the SDK directory. Run `make` and copy binaries into the bin folder.
 
 ## Setup
@@ -9,6 +9,7 @@ Clone into the SDK directory. Run `make` and copy binaries into the bin folder.
 ### Install dependencies
 ```bash
 pip install pandas matplotlib jupyter
+pip install plotly --upgrade
 ```
 
 ### Launch juypter server on Firesim manager 
