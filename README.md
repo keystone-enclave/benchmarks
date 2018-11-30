@@ -9,7 +9,7 @@ Clone into the SDK directory. Run `make` and copy binaries into the bin folder.
 ### Install dependencies
 ```bash
 pip install pandas matplotlib jupyter
-pip install plotly --upgrade
+pip install plotly cufflinks --user
 ```
 
 ### Launch juypter server on Firesim manager 
