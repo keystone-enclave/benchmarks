@@ -1,4 +1,4 @@
-cycle, env, func_call
+cycle,env,symbol
 13718035263,linux,keystone_create_enclave
 13718035343,linux,calculate_required_pages
 13718035471,linux,create_enclave
