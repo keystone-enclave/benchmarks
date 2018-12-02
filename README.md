@@ -49,7 +49,11 @@ python ./analyze.py TRACEFILE symbols.filtered.txt output.txt
 Note that there might be an `IndexError` after running the `analyze.py` script, which should be
 fine.
 
-### Install dependencies on Firesim manager (or locally)
+Now you can run through the Jupyter Notebook and get fancy charts.
+
+![Failed to Load](img/chart_example.png)
+
+### Install python dependencies on Firesim manager (or locally)
 ```bash
 pip install pandas matplotlib jupyter
 pip install plotly cufflinks --user
