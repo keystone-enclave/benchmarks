@@ -24,7 +24,7 @@
  */
 
 #include "avl_tree.h"
-#include <stdlib.h>
+#include "eapp_utils.h"
 #include <string.h>
 #include <stdio.h>
 #include <assert.h>
@@ -236,8 +236,7 @@ test(int data[], int count)
 	}
 }
 
-int
-main(void)
+void EAPP_ENTRY eapp_entry()
 {
 	const int num_iterations = 100000;
 	const int max_node_count = 50;
@@ -269,6 +268,5 @@ main(void)
 	// printf("Done.\n");
 
 	free(nodes);
-
-	return 0;
+	EAPP_RETURN(0);
 }
