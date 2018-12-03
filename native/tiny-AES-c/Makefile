@@ -1,9 +1,9 @@
 #CC           = avr-gcc
 #CFLAGS       = -Wall -mmcu=atmega16 -Os -Wl,-Map,test.map
 #OBJCOPY      = avr-objcopy
-CC           = gcc
-LD           = gcc
-AR           = ar
+CC           = riscv64-unknown-linux-gnu-gcc
+LD           = riscv64-unknown-linux-gnu-gcc
+AR           = riscv64-unknown-linux-gnu-ar
 ARFLAGS      = rcs
 CFLAGS       = -Wall -Os -c
 LDFLAGS      = -Wall -Os -Wl,-Map,test.map
@@ -15,7 +15,7 @@ CFLAGS += -DAES256=1
 endif
 
 OBJCOPYFLAGS = -j .text -O ihex
-OBJCOPY      = objcopy
+OBJCOPY      = riscv64-unknown-linux-gnu-objcopy
 
 # include path to AVR library
 INCLUDE_PATH = /usr/lib/avr/include
